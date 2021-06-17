@@ -19,10 +19,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=Qualcomm \
     ro.soc.model=SM6150
 
-# Firmware
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.hw.modem_version=.
-
 # HDR
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.hdr.config=/vendor/etc/hdr_tm_config.xml
