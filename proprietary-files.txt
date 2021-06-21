@@ -145,6 +145,10 @@ vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libarcsoft_zoomtranslator_imp.so
 
+# Camera
+etc/permissions/com.motorola.motosignature.xml:vendor/etc/permissions/com.motorola.motosignature.xml
+framework/com.motorola.motosignature.jar:vendor/framework/com.motorola.motosignature.jar
+
 # Display (HDR)
 vendor/etc/hdr_tm_config.xml
 
