@@ -28,3 +28,6 @@ BLOB_ROOT="$ANDROID_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
 CAMERA_HAL="$BLOB_ROOT"/vendor/lib64/hw/com.qti.chi.override.so
 sed -i "s/libhidltransport.so/qtimutex.so\x00\x00\x00\x00\x00\x00\x00\x00/" "$CAMERA_HAL"
+
+MOTO_SIGNATURE="$BLOB_ROOT"/vendor/etc/permissions/com.motorola.motosignature.xml
+sed -i 's|/system/framework|/vendor/framework|' "$MOTO_SIGNATURE"
