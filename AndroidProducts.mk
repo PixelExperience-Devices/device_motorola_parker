@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_parker.mk
+    $(LOCAL_DIR)/aosp_parker.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_parker-eng \
-    lineage_parker-user \
-    lineage_parker-userdebug
+    aosp_parker-eng \
+    aosp_parker-user \
+    aosp_parker-userdebug
